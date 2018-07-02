@@ -21,10 +21,13 @@
     <ClInclude Include="targetver.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Resource.h">
+    <ClInclude Include="Resource-ex.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Resource-ex.h">
+    <ClInclude Include="resource1.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\strtable\Resource.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
@@ -38,6 +41,9 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Resource-ex.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="Menu.rc">
       <Filter>리소스 파일</Filter>
     </ResourceCompile>
   </ItemGroup>

@@ -147,8 +147,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\strtable\Resource.h" />
     <ClInclude Include="Resource-ex.h" />
-    <ClInclude Include="Resource.h" />
+    <ClInclude Include="resource1.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
@@ -162,6 +163,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ResourceCompile Include="Menu.rc" />
     <ResourceCompile Include="Resource-ex.rc" />
   </ItemGroup>
   <ItemGroup>

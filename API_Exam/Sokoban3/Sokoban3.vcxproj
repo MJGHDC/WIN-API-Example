@@ -168,11 +168,18 @@
     <Image Include="bitmap1.bmp" />
     <Image Include="empty.bmp" />
     <Image Include="man.bmp" />
+    <Image Include="mandown.bmp" />
+    <Image Include="manright.bmp" />
+    <Image Include="manup.bmp" />
     <Image Include="pack.bmp" />
     <Image Include="small.ico" />
     <Image Include="Sokoban3.ico" />
     <Image Include="target.bmp" />
     <Image Include="wall.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="짐밀기.wav" />
+    <Media Include="혼자이동.wav" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

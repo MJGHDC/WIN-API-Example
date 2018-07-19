@@ -66,5 +66,22 @@
     <Image Include="empty.bmp">
       <Filter>리소스 파일</Filter>
     </Image>
+    <Image Include="mandown.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="manright.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="manup.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="짐밀기.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="혼자이동.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
   </ItemGroup>
 </Project>
